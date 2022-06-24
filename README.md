@@ -1,3 +1,13 @@
+# Prerequisites
+- Install Go 
+- Install tiny go compiler from below link.
+https://tinygo.org/getting-started/install/
+
+- Install goexec to start web server to serve web assembly.
+```sh
+go get -u github.com/shurcooL/goexec
+```
+
 # Steps
 - Generate web assembly file corresponding to main.go
 ```sh
